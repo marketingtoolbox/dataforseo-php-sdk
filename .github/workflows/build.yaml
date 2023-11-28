@@ -140,38 +140,6 @@ jobs:
                     extensions: "${{ env.PHP_EXTENSIONS }}"
                     coverage: "none"
 
-            -   name: "Install composer dependencies"
-                uses: "ramsey/composer-install@v2"
-                with:
-                    dependency-versions: "${{ matrix.dependencies }}"
-
-            -   name: "Run phpunit"
-                run: "composer phpunit"
-
-    code-coverage:
-        name: "Code Coverage"
-
-        runs-on: "ubuntu-latest"
-
-        strategy:
-            matrix:
-                php-version:
-                    - "8.1"
-
-                dependencies:
-                    - "highest"
-
-        steps:
-            -   name: "Checkout"
-                uses: "actions/checkout@v4"
-
-            -   name: "Setup PHP, with composer and extensions"
-                uses: "shivammathur/setup-php@v2"
-                with:
-                    coverage: "pcov"
-                    extensions: "${{ env.PHP_EXTENSIONS }}"
-                    php-version: "${{ matrix.php-version }}"
-
             -   name: "Set up problem matchers for phpunit/phpunit"
                 run: "echo \"::add-matcher::${{ runner.tool_cache }}/phpunit.json\""
 
@@ -180,13 +148,13 @@ jobs:
                 with:
                     dependency-versions: "${{ matrix.dependencies }}"
 
-            -   name: "Collect code coverage with pcov and phpunit/phpunit"
+            -   name: "Run phpunit (with code coverage)"
                 run: "vendor/bin/phpunit --coverage-clover=.build/logs/clover.xml"
 
             -   name: "Send code coverage report to Codecov.io"
+                uses: "codecov/codecov-action@v3"
                 env:
                     CODECOV_TOKEN: "${{ secrets.CODECOV_TOKEN }}"
-                run: "bash <(curl -s https://codecov.io/bash)"
 
     mutation-tests:
         name: "Mutation tests"
