@@ -1,5 +1,5 @@
 {
-    "name": "setono/dataforseo-php-sdk",
+    "name": "marketingtoolbox/dataforseo-php-sdk",
     "description": "PHP library for the DataForSEO API",
     "license": "MIT",
     "type": "library",
