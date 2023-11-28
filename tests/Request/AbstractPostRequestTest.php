@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Request;
+namespace MarketingToolboxDataForSEO\Request;
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Setono\DataForSEO\Request\AbstractPostRequest
+ * @covers \MarketingToolboxDataForSEO\Request\AbstractPostRequest
  */
 final class AbstractPostRequestTest extends TestCase
 {
@@ -33,7 +33,7 @@ final class AbstractPostRequestTest extends TestCase
     {
         $request = new TestPostRequest('property', 'camelCasedProperty');
 
-        self::assertSame('Setono\\DataForSEO\\Response\\TestPostResponse', $request->getResponseClass());
+        self::assertSame('MarketingToolbox\DataForSEO\\Response\\TestPostResponse', $request->getResponseClass());
     }
 }
 

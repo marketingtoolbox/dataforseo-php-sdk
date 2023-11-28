@@ -14,7 +14,13 @@ composer require marketingtoolbox/dataforseo-php-sdk
 
 ## Usage
 
-TODO
+```php
+<?php
+// Let's start by initializing the client
+$client = new \MarketingToolbox\DataForSEO\Client\Client('your_login', 'your_password');
+
+// Now we can use the client to make requests
+```
 
 [ico-version]: https://poser.pugx.org/marketingtoolbox/dataforseo-php-sdk/v/stable
 [ico-license]: https://poser.pugx.org/marketingtoolbox/dataforseo-php-sdk/license

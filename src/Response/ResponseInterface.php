@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Response;
+namespace MarketingToolboxDataForSEO\Response;
 
 interface ResponseInterface
 {

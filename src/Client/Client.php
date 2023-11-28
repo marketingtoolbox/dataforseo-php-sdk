@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Client;
+namespace MarketingToolboxDataForSEO\Client;
 
 use CuyZ\Valinor\Mapper\Source\Source;
 use CuyZ\Valinor\MapperBuilder;
@@ -13,8 +13,8 @@ use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Http\Message\RequestInterface as HttpRequestInterface;
 use Psr\Http\Message\ResponseInterface as HttpResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
-use Setono\DataForSEO\Request\RequestInterface;
-use Setono\DataForSEO\Response\ResponseInterface;
+use MarketingToolboxDataForSEO\Request\RequestInterface;
+use MarketingToolboxDataForSEO\Response\ResponseInterface;
 
 final class Client implements ClientInterface
 {

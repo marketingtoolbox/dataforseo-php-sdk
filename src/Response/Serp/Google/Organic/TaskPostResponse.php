@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Response\Serp\Google\Organic;
+namespace MarketingToolboxDataForSEO\Response\Serp\Google\Organic;
 
-use Setono\DataForSEO\Response\ResponseInterface;
+use MarketingToolboxDataForSEO\Response\ResponseInterface;
 
 final class TaskPostResponse implements ResponseInterface
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Client;
+namespace MarketingToolboxDataForSEO\Client;
 
-use Setono\DataForSEO\Request\RequestInterface;
-use Setono\DataForSEO\Response\ResponseInterface;
+use MarketingToolboxDataForSEO\Request\RequestInterface;
+use MarketingToolboxDataForSEO\Response\ResponseInterface;
 
 interface ClientInterface
 {

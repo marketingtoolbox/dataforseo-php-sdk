@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Request\Serp\Google\Organic;
+namespace MarketingToolboxDataForSEO\Request\Serp\Google\Organic;
 
-use Setono\DataForSEO\Request\AbstractPostRequest;
+use MarketingToolboxDataForSEO\Request\AbstractPostRequest;
 
 final class TaskPostRequest extends AbstractPostRequest
 {

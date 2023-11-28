@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Request;
+namespace MarketingToolboxDataForSEO\Request;
 
-use Setono\DataForSEO\Response\ResponseInterface;
+use MarketingToolboxDataForSEO\Response\ResponseInterface;
 use function Symfony\Component\String\u;
 
 abstract class AbstractRequest implements RequestInterface
@@ -18,8 +18,8 @@ abstract class AbstractRequest implements RequestInterface
 
     public function getResponseClass(): string
     {
-        $baseRequestNamespace = 'Setono\\DataForSEO\\Request\\';
-        $baseResponseNamespace = 'Setono\\DataForSEO\\Response\\';
+        $baseRequestNamespace = 'MarketingToolbox\DataForSEO\\Request\\';
+        $baseResponseNamespace = 'MarketingToolbox\DataForSEO\\Response\\';
 
         /** @var class-string<ResponseInterface> $responseClass */
         $responseClass = u(static::class)

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Request;
+namespace MarketingToolboxDataForSEO\Request;
 
 use function Symfony\Component\String\u;
 

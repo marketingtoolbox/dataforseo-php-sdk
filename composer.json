@@ -30,12 +30,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Setono\\DataForSEO\\": "src/"
+            "MarketingToolbox\\DataForSEO\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Setono\\DataForSEO\\": "tests/"
+            "MarketingToolbox\\DataForSEO\\": "tests/"
         }
     },
     "config": {

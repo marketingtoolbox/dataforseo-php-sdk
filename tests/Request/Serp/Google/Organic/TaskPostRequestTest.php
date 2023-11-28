@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Request\Serp\Google\Organic;
+namespace MarketingToolboxDataForSEO\Request\Serp\Google\Organic;
 
 use PHPUnit\Framework\TestCase;
-use Setono\DataForSEO\Response\Serp\Google\Organic\TaskPostResponse;
+use MarketingToolboxDataForSEO\Response\Serp\Google\Organic\TaskPostResponse;
 
 final class TaskPostRequestTest extends TestCase
 {

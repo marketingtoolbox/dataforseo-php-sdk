@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Setono\DataForSEO\Client;
+namespace MarketingToolboxDataForSEO\Client;
 
 use PHPUnit\Framework\TestCase;
-use Setono\DataForSEO\Request\Serp\Google\Organic\TaskPostRequest;
-use Setono\DataForSEO\Request\Serp\Google\Organic\TaskPostRequestData;
+use MarketingToolboxDataForSEO\Request\Serp\Google\Organic\TaskPostRequest;
+use MarketingToolboxDataForSEO\Request\Serp\Google\Organic\TaskPostRequestData;
 
 /**
- * @covers \Setono\DataForSEO\Client\Client
+ * @covers \MarketingToolboxDataForSEO\Client\Client
  */
 final class ClientTest extends TestCase
 {
