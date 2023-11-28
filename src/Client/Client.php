@@ -40,7 +40,7 @@ final class Client implements ClientInterface
     {
         $url = sprintf('https://api.dataforseo.com/%s', ltrim($request->getEndpoint(), '/'));
 
-        $psrRequest = $this->getRequestFactory()
+        $httpRequest = $this->getRequestFactory()
             ->createRequest($request->getMethod(), $url)
             ->withHeader('Accept', 'application/json')
             ->withHeader('User-Agent', 'Marketing Toolbox DataForSEO Client (https://github.com/marketingtoolbox/dataforseo-php-sdk)')
@@ -50,12 +50,12 @@ final class Client implements ClientInterface
         if (RequestInterface::METHOD_POST === $request->getMethod()) {
             $json = json_encode($request, \JSON_THROW_ON_ERROR); // todo catch error and throw better exception
 
-            $psrRequest = $psrRequest->withBody($this->getStreamFactory()->createStream($json))
+            $httpRequest = $httpRequest->withBody($this->getStreamFactory()->createStream($json))
                 ->withHeader('Content-Type', 'application/json')
             ;
         }
 
-        $this->lastHttpRequest = $psrRequest;
+        $this->lastHttpRequest = $httpRequest;
         $this->lastHttpResponse = $this->getHttpClient()->sendRequest($this->lastHttpRequest);
 
         return $this->getResponseMapperBuilder()
