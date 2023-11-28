@@ -14,12 +14,34 @@ composer require marketingtoolbox/dataforseo-php-sdk
 
 ## Usage
 
+Here's an example of how to use the library with the SERP > Google > Organic endpoint:
+
 ```php
 <?php
+use MarketingToolbox\DataForSEO\Request;
+use MarketingToolbox\DataForSEO\Response;
+
 // Let's start by initializing the client
-$client = new \MarketingToolbox\DataForSEO\Client\Client('your_login', 'your_password');
+$client = new MarketingToolbox\DataForSEO\Client\Client('your_login', 'your_password');
 
 // Now we can use the client to make requests
+// Notice that the request objects' namespaces are similar to the API endpoints
+
+/** @var Response\Serp\Google\Organic\TaskPostResponse $response */
+$response = $client->request(new Request\Serp\Google\Organic\TaskPostRequest(
+    new Request\Serp\Google\Organic\TaskPostRequestData('bikes', 'United States', 'en', 'your_tag'),
+    new Request\Serp\Google\Organic\TaskPostRequestData('cars', 'United States', 'en'),
+));
+
+/** @var Response\Serp\Google\Organic\TaskPostResponseTask $task */
+foreach ($response->tasks as $task) {
+    // iterate over each task
+}
+
+// You can also find a task by the tag you provided when you created it
+
+/** @var Response\Serp\Google\Organic\TaskPostResponseTask|null $task */
+$task = $client->findTaskByTag('your_tag');
 ```
 
 [ico-version]: https://poser.pugx.org/marketingtoolbox/dataforseo-php-sdk/v/stable
