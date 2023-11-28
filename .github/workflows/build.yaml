@@ -138,7 +138,7 @@ jobs:
                 with:
                     php-version: "${{ matrix.php-version }}"
                     extensions: "${{ env.PHP_EXTENSIONS }}"
-                    coverage: "none"
+                    coverage: "pcov"
 
             -   name: "Set up problem matchers for phpunit/phpunit"
                 run: "echo \"::add-matcher::${{ runner.tool_cache }}/phpunit.json\""
