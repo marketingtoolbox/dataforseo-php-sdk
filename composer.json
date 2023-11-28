@@ -22,6 +22,7 @@
     "require-dev": {
         "infection/infection": "^0.26",
         "nyholm/psr7": "^1.8",
+        "phpspec/prophecy-phpunit": "^2.0",
         "phpunit/phpunit": "^9.6",
         "psalm/plugin-phpunit": "^0.18",
         "setono/code-quality-pack": "^2.6",
