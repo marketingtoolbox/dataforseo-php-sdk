@@ -47,7 +47,7 @@ final class Client implements ClientInterface
             ->withHeader('Authorization', sprintf('Basic %s', base64_encode($this->login . ':' . $this->password)))
         ;
 
-        if (RequestInterface::METHOD_POST === $request->getMethod()) {
+        if ($request->getMethod() === RequestInterface::METHOD_POST) {
             $json = json_encode($request, \JSON_THROW_ON_ERROR); // todo catch error and throw better exception
 
             $httpRequest = $httpRequest->withBody($this->getStreamFactory()->createStream($json))
@@ -66,11 +66,6 @@ final class Client implements ClientInterface
             );
     }
 
-    public function setHttpClient(?HttpClientInterface $httpClient): void
-    {
-        $this->httpClient = $httpClient;
-    }
-
     private function getHttpClient(): HttpClientInterface
     {
         if (null === $this->httpClient) {
@@ -78,6 +73,11 @@ final class Client implements ClientInterface
         }
 
         return $this->httpClient;
+    }
+
+    public function setHttpClient(?HttpClientInterface $httpClient): void
+    {
+        $this->httpClient = $httpClient;
     }
 
     private function getRequestFactory(): RequestFactoryInterface
@@ -89,9 +89,9 @@ final class Client implements ClientInterface
         return $this->requestFactory;
     }
 
-    public function setStreamFactory(?StreamFactoryInterface $streamFactory): void
+    public function setRequestFactory(?RequestFactoryInterface $requestFactory): void
     {
-        $this->streamFactory = $streamFactory;
+        $this->requestFactory = $requestFactory;
     }
 
     private function getStreamFactory(): StreamFactoryInterface
@@ -103,9 +103,9 @@ final class Client implements ClientInterface
         return $this->streamFactory;
     }
 
-    public function setRequestFactory(?RequestFactoryInterface $requestFactory): void
+    public function setStreamFactory(?StreamFactoryInterface $streamFactory): void
     {
-        $this->requestFactory = $requestFactory;
+        $this->streamFactory = $streamFactory;
     }
 
     public function getResponseMapperBuilder(): MapperBuilder
