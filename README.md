@@ -29,7 +29,9 @@ $client = new MarketingToolbox\DataForSEO\Client\Client('your_login', 'your_pass
 
 /** @var Response\Serp\Google\Organic\TaskPostResponse $response */
 $response = $client->request(new Request\Serp\Google\Organic\TaskPostRequest(
-    new Request\Serp\Google\Organic\TaskPostRequestData('bikes', 'United States', 'en', 'your_tag'),
+    // In the first request we use the pingback url to get notified when the task is finished.
+    // The PingbackUrl value object will create a pingback url including the id and tag query parameters 
+    new Request\Serp\Google\Organic\TaskPostRequestData('bikes', 'United States', 'en', 'your_tag', pingbackUrl: (string) new Request\PingbackUrl('https://your-pingback-url.com')),
     new Request\Serp\Google\Organic\TaskPostRequestData('cars', 'United States', 'en'),
 ));
 
