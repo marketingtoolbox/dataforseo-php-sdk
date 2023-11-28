@@ -153,8 +153,6 @@ jobs:
 
             -   name: "Send code coverage report to Codecov.io"
                 uses: "codecov/codecov-action@v3"
-                env:
-                    CODECOV_TOKEN: "${{ secrets.CODECOV_TOKEN }}"
 
     mutation-tests:
         name: "Mutation tests"
