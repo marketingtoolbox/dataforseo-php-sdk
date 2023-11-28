@@ -9,7 +9,7 @@ use Setono\DataForSEO\Request\AbstractPostRequest;
 final class TaskPostRequest extends AbstractPostRequest
 {
     /** @var array<array-key, TaskPostRequestData> */
-    private array $data;
+    private readonly array $data;
 
     public function __construct(TaskPostRequestData ...$data)
     {

@@ -23,7 +23,7 @@ final class AbstractPostRequestTest extends TestCase
             'camel_cased_property' => 'camelCasedProperty',
         ], $request->jsonSerialize());
 
-        self::assertSame('{"property":"property","camel_cased_property":"camelCasedProperty"}', json_encode($request));
+        self::assertSame('{"property":"property","camel_cased_property":"camelCasedProperty"}', json_encode($request, \JSON_THROW_ON_ERROR));
     }
 
     /**

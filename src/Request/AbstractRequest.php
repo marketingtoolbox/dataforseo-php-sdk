@@ -22,7 +22,7 @@ abstract class AbstractRequest implements RequestInterface
         $baseResponseNamespace = 'Setono\\DataForSEO\\Response\\';
 
         /** @var class-string<ResponseInterface> $responseClass */
-        $responseClass = u($this::class)
+        $responseClass = u(static::class)
             ->trimPrefix($baseRequestNamespace)
             ->prepend($baseResponseNamespace)
             ->trimSuffix('Request')

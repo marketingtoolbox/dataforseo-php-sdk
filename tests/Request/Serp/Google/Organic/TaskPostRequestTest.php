@@ -25,7 +25,7 @@ final class TaskPostRequestTest extends TestCase
 
         self::assertSame(
             '[{"keyword":"herret\u00f8j","location_name":"Denmark","language_code":"da"},{"keyword":"lederhosen","location_name":"Germany","language_code":"de"}]',
-            json_encode($request),
+            json_encode($request, \JSON_THROW_ON_ERROR),
         );
     }
 }
