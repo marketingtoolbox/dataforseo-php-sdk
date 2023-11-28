@@ -19,25 +19,6 @@ final class ClientTest extends TestCase
 
     private ?string $password = null;
 
-    protected function setUp(): void
-    {
-        $this->live = (bool) getenv('LIVE');
-
-        if ($this->live) {
-            $this->login = (string) getenv('DATAFORSEO_LOGIN');
-            $this->password = (string) getenv('DATAFORSEO_PASSWORD');
-        }
-    }
-
-    /**
-     * @psalm-assert-if-true string $this->login
-     * @psalm-assert-if-true string $this->password
-     */
-    private function isLive(): bool
-    {
-        return $this->live;
-    }
-
     /**
      * @test
      */
@@ -56,5 +37,24 @@ final class ClientTest extends TestCase
         echo (string) $client->getLastHttpResponse()?->getBody() . "\n\n";
 
         print_r($response);
+    }
+
+    protected function setUp(): void
+    {
+        $this->live = (bool) getenv('LIVE');
+
+        if ($this->live) {
+            $this->login = (string) getenv('DATAFORSEO_LOGIN');
+            $this->password = (string) getenv('DATAFORSEO_PASSWORD');
+        }
+    }
+
+    /**
+     * @psalm-assert-if-true string $this->login
+     * @psalm-assert-if-true string $this->password
+     */
+    private function isLive(): bool
+    {
+        return $this->live;
     }
 }
