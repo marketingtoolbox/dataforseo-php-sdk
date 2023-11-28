@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MarketingToolboxDataForSEO\Request;
+namespace MarketingToolbox\DataForSEO\Request;
 
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \MarketingToolboxDataForSEO\Request\AbstractPostRequest
+ * @covers \MarketingToolbox\DataForSEO\Request\AbstractPostRequest
  */
 final class AbstractPostRequestTest extends TestCase
 {

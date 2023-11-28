@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace MarketingToolboxDataForSEO\Client;
+namespace MarketingToolbox\DataForSEO\Client;
 
+use MarketingToolbox\DataForSEO\Request\Serp\Google\Organic\TaskPostRequest;
+use MarketingToolbox\DataForSEO\Request\Serp\Google\Organic\TaskPostRequestData;
 use PHPUnit\Framework\TestCase;
-use MarketingToolboxDataForSEO\Request\Serp\Google\Organic\TaskPostRequest;
-use MarketingToolboxDataForSEO\Request\Serp\Google\Organic\TaskPostRequestData;
 
 /**
- * @covers \MarketingToolboxDataForSEO\Client\Client
+ * @covers \MarketingToolbox\DataForSEO\Client\Client
  */
 final class ClientTest extends TestCase
 {

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace MarketingToolboxDataForSEO\Client;
+namespace MarketingToolbox\DataForSEO\Client;
 
 use CuyZ\Valinor\Mapper\Source\Source;
 use CuyZ\Valinor\MapperBuilder;
 use Http\Discovery\Psr17FactoryDiscovery;
 use Http\Discovery\Psr18ClientDiscovery;
+use MarketingToolbox\DataForSEO\Request\RequestInterface;
+use MarketingToolbox\DataForSEO\Response\ResponseInterface;
 use Psr\Http\Client\ClientInterface as HttpClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Http\Message\RequestInterface as HttpRequestInterface;
 use Psr\Http\Message\ResponseInterface as HttpResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
-use MarketingToolboxDataForSEO\Request\RequestInterface;
-use MarketingToolboxDataForSEO\Response\ResponseInterface;
 
 final class Client implements ClientInterface
 {

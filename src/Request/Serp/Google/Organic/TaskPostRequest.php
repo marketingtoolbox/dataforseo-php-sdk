@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MarketingToolboxDataForSEO\Request\Serp\Google\Organic;
+namespace MarketingToolbox\DataForSEO\Request\Serp\Google\Organic;
 
-use MarketingToolboxDataForSEO\Request\AbstractPostRequest;
+use MarketingToolbox\DataForSEO\Request\AbstractPostRequest;
 
 final class TaskPostRequest extends AbstractPostRequest
 {

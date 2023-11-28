@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarketingToolboxDataForSEO\Client;
+namespace MarketingToolbox\DataForSEO\Client;
 
-use MarketingToolboxDataForSEO\Request\RequestInterface;
-use MarketingToolboxDataForSEO\Response\ResponseInterface;
+use MarketingToolbox\DataForSEO\Request\RequestInterface;
+use MarketingToolbox\DataForSEO\Response\ResponseInterface;
 
 interface ClientInterface
 {

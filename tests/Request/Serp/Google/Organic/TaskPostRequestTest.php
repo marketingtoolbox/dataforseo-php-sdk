@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarketingToolboxDataForSEO\Request\Serp\Google\Organic;
+namespace MarketingToolbox\DataForSEO\Request\Serp\Google\Organic;
 
+use MarketingToolbox\DataForSEO\Response\Serp\Google\Organic\TaskPostResponse;
 use PHPUnit\Framework\TestCase;
-use MarketingToolboxDataForSEO\Response\Serp\Google\Organic\TaskPostResponse;
 
 final class TaskPostRequestTest extends TestCase
 {

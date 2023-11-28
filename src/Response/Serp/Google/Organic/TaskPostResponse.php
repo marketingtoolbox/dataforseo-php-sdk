@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MarketingToolboxDataForSEO\Response\Serp\Google\Organic;
+namespace MarketingToolbox\DataForSEO\Response\Serp\Google\Organic;
 
-use MarketingToolboxDataForSEO\Response\ResponseInterface;
+use MarketingToolbox\DataForSEO\Response\ResponseInterface;
 
 final class TaskPostResponse implements ResponseInterface
 {

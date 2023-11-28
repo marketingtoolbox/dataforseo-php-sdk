@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarketingToolboxDataForSEO\Response;
+namespace MarketingToolbox\DataForSEO\Response;
 
 interface ResponseInterface
 {
