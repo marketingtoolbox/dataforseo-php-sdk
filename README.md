@@ -43,7 +43,7 @@ foreach ($response->tasks as $task) {
 // You can also find a task by the tag you provided when you created it
 
 /** @var Response\Serp\Google\Organic\TaskPostResponseTask|null $task */
-$task = $client->findTaskByTag('your_tag');
+$task = $response->findTaskByTag('your_tag');
 ```
 
 [ico-version]: https://poser.pugx.org/marketingtoolbox/dataforseo-php-sdk/v/stable
