@@ -68,8 +68,8 @@ final class TaskPostResponseTaskData
         public string $locationName,
         public string $languageCode,
         public ?string $tag,
-        public string $device,
-        public string $os,
+        public ?string $device,
+        public ?string $os,
     ) {
     }
 }

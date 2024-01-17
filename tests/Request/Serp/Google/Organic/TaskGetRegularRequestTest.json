@@ -1,0 +1,1042 @@
+{
+    "version": "0.1.20231117",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0782 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "01152239-6273-0066-0000-3974c2a27c5c",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0427 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "serp",
+                "google",
+                "organic",
+                "task_get",
+                "regular",
+                "01152239-6273-0066-0000-3974c2a27c5c"
+            ],
+            "data": {
+                "api": "serp",
+                "function": "task_get",
+                "se": "google",
+                "se_type": "organic",
+                "keyword": "pots and pans",
+                "language_code": "en",
+                "location_name": "Denmark",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "keyword": "pots and pans",
+                    "type": "organic",
+                    "se_domain": "google.dk",
+                    "location_code": 2208,
+                    "language_code": "en",
+                    "check_url": "https://www.google.dk/search?q=pots%20and%20pans&num=100&hl=en&gl=DK&gws_rd=cr&ie=UTF-8&oe=UTF-8&uule=w+CAIQIFISCftflO62J0tGEc2S4MPQQ4dS",
+                    "datetime": "2024-01-15 20:39:31 +00:00",
+                    "spell": null,
+                    "item_types": [
+                        "shopping",
+                        "organic",
+                        "people_also_ask",
+                        "images",
+                        "video"
+                    ],
+                    "se_results_count": 1100000000,
+                    "items_count": 98,
+                    "items": [
+                        {
+                            "type": "organic",
+                            "rank_group": 1,
+                            "rank_absolute": 2,
+                            "domain": "www.amazon.com",
+                            "title": "Cookware: Home & Kitchen: Pots & Pans, Tea Kettles ...",
+                            "description": "Kitchen & Dining · Cookware Sets · Pots & Pans · Casseroles & Bakers · Canning · Tea Kettles · Griddles · Fondue · Toaster Oven Cookware · Disposable Cookware.",
+                            "url": "https://www.amazon.com/cookware/b?ie=UTF8&node=289814",
+                            "breadcrumb": "https://www.amazon.com › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 2,
+                            "rank_absolute": 4,
+                            "domain": "www.potsandpans.com",
+                            "title": "PotsandPans: Trusted Brands for Every Kitchen",
+                            "description": "For over 20 years, PotsandPans.com has been keeping home cooks in the know with the latest cooking innovations from the most trusted kitchenware brands.",
+                            "url": "https://www.potsandpans.com/",
+                            "breadcrumb": "https://www.potsandpans.com"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 3,
+                            "rank_absolute": 5,
+                            "domain": "www.johnlewis.com",
+                            "title": "Pots & Pans | John Lewis & Partners",
+                            "description": "Choose from a great range of Pots & Pans. Including Le Creuset, Frying Pans, and Non Stick Frying Pans. Free Click & Collect on all orders over  30.",
+                            "url": "https://www.johnlewis.com/browse/home-garden/cooking-baking/pots-pans/_/N-7d3b",
+                            "breadcrumb": "https://www.johnlewis.com › ... › Cooking & Baking"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 4,
+                            "rank_absolute": 6,
+                            "domain": "www.lecreuset.co.uk",
+                            "title": "Saucepans & Pots",
+                            "description": "Treat yourself to iconic pots and pans in a range of shapes, sizes and high performance materials. Saucepans & Pots. Filter. Showing 10 of 21.",
+                            "url": "https://www.lecreuset.co.uk/en_GB/c/cooking-and-baking/cooking/saucepans-and-pots",
+                            "breadcrumb": "https://www.lecreuset.co.uk › en_GB › cooking › sauc..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 5,
+                            "rank_absolute": 7,
+                            "domain": "www.potsandpans.in",
+                            "title": "Pots and Pans - Premium Kitchen Cookware, Tools ...",
+                            "description": "India's first-ever international culinary cookware store. Pots and Pans India brings a multitude of avant-garde kitchen utensils and tools that will make ...",
+                            "url": "https://www.potsandpans.in/",
+                            "breadcrumb": "https://www.potsandpans.in"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 6,
+                            "rank_absolute": 8,
+                            "domain": "www.ikea.com",
+                            "title": "Cookware - Durable & Affordable",
+                            "description": "Our cookware range is filled with essentials like pots and pans, stock pots, frying skillets, and sauté pans in different sizes for almost any kind of cooking.",
+                            "url": "https://www.ikea.com/us/en/cat/cookware-kt003/",
+                            "breadcrumb": "https://www.ikea.com › ... › Kitchenware & tableware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 7,
+                            "rank_absolute": 10,
+                            "domain": "cookinglife.eu",
+                            "title": "Pots and Pans | Buy now at Cookinglife",
+                            "description": "Save time and order high-quality pots and pans online at Cookinglife. Benefit from our fair prices, large selection, and the high quality of our products.",
+                            "url": "https://cookinglife.eu/pots-and-pans/",
+                            "breadcrumb": "https://cookinglife.eu › pots-and-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 8,
+                            "rank_absolute": 11,
+                            "domain": "shop.tefal.co.uk",
+                            "title": "Pan & Pot Sets | Saucepan & Cookware Sets",
+                            "description": "Choose a Tefal pan set and enjoy our renowned non-stick features every time you cook. From Thermo-spot technology to soft-touch handles and durable non-stick ...",
+                            "url": "https://shop.tefal.co.uk/pots-pans/pan-sets",
+                            "breadcrumb": "https://shop.tefal.co.uk › pots-pans › pan-sets"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 9,
+                            "rank_absolute": 12,
+                            "domain": "www.walmart.com",
+                            "title": "Shop Pots & Pans in Pots & Pans(1000+)",
+                            "description": "The easiest way to shop, check out & track your orders – anywhere you are. Get the app.",
+                            "url": "https://www.walmart.com/browse/home/shop-pots-pans/4044_623679_8140341_4666314",
+                            "breadcrumb": "https://www.walmart.com › ... › Shop Pots & Pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 10,
+                            "rank_absolute": 13,
+                            "domain": "www.scanpan.eu",
+                            "title": "SCANPAN cookware collections - made in Denmark",
+                            "description": "SCANPAN supply uncompromising cookware of the highest quality – developed and produced in Denmark.",
+                            "url": "https://www.scanpan.eu/",
+                            "breadcrumb": "https://www.scanpan.eu"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 11,
+                            "rank_absolute": 14,
+                            "domain": "www.fissler.com",
+                            "title": "Buy high quality pots and pans",
+                            "description": "Cookware sets from Fissler - the right pot for every recipe · Exclusive, energy-efficient CookStar® base for optimum heat distribution, suitable for all types ...",
+                            "url": "https://www.fissler.com/global/en/cookware/",
+                            "breadcrumb": "https://www.fissler.com › global › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 12,
+                            "rank_absolute": 15,
+                            "domain": "hexclad.com",
+                            "title": "HexClad Cookware: The Only True Hybrid Cookware",
+                            "description": "HexClad Hybrid Perfect Pots & Pans Set (12PC). 12pc Cookware Set. $699.99 $999.99. You Save $300. Transform your kitchen with our ultimate 13-piece set ...",
+                            "url": "https://hexclad.com/",
+                            "breadcrumb": "https://hexclad.com"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 13,
+                            "rank_absolute": 16,
+                            "domain": "www.procook.co.uk",
+                            "title": "Professional Cookware & Pans",
+                            "description": "ProCook cookware is designed for everyone - beginners, aspiring chefs and professional cooks. Unleash your culinary skill and passion for food with professional ...",
+                            "url": "https://www.procook.co.uk/shop/cookware",
+                            "breadcrumb": "https://www.procook.co.uk › shop › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 14,
+                            "rank_absolute": 17,
+                            "domain": "www.wmf.com",
+                            "title": "Pots & pans - SHOP",
+                            "description": "By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and ...",
+                            "url": "https://www.wmf.com/de/en/products/pots-pans.html",
+                            "breadcrumb": "https://www.wmf.com › products › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 15,
+                            "rank_absolute": 18,
+                            "domain": "www.all-clad.com",
+                            "title": "Cookware: Pots, Pans, Sets & More",
+                            "description": "All-Clad offers a variety of cookware including cookware sets, pots & pans made with stainless steel, nonstick, carbon steel and more. Shop now.",
+                            "url": "https://www.all-clad.com/cookware.html",
+                            "breadcrumb": "https://www.all-clad.com › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 16,
+                            "rank_absolute": 19,
+                            "domain": "www.bedbathandbeyond.com",
+                            "title": "Cookware Sets",
+                            "description": "They are a pleasure to cook with. Like all stainless steel pots and pans they can get a little dirty, but nothing that a little elbow ...",
+                            "url": "https://www.bedbathandbeyond.com/c/cookware/cookware-sets?t=24679",
+                            "breadcrumb": "https://www.bedbathandbeyond.com › ... › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 17,
+                            "rank_absolute": 20,
+                            "domain": "www.dunelm.com",
+                            "title": "SALE NOW ON - Pots & Pans",
+                            "description": "Pots & Pans Perfection. Induction pots and pans are specifically designed for induction hobs, which boasts a specialist technology that's more complicated than ...",
+                            "url": "https://www.dunelm.com/category/home-and-furniture/cook-and-dine/cooking/pots-and-pans",
+                            "breadcrumb": "https://www.dunelm.com › ... › cook and dine › cooking"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 18,
+                            "rank_absolute": 21,
+                            "domain": "www.goodhousekeeping.com",
+                            "title": "7 Best Nonstick Cookware Sets 2024, Tested & Reviewed ...",
+                            "description": "7 Best Nonstick Cookware Sets of 2024, According to Our Lab Testing. Including the best nonstick pots and pans for every budget. Headshot of ...",
+                            "url": "https://www.goodhousekeeping.com/cooking-tools/cookware-reviews/g799/best-picks-nonstick-cookware/",
+                            "breadcrumb": "https://www.goodhousekeeping.com › cooking-tools"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 19,
+                            "rank_absolute": 22,
+                            "domain": "www.calphalon.com",
+                            "title": "Pots, Pans & Specialty Cookware",
+                            "description": "Explore individual pots, pans, dutch ovens, and other specialty cookware to expand your collection and cooking capabilities. Shop now.",
+                            "url": "https://www.calphalon.com/cookware/cookware-by-product-type/",
+                            "breadcrumb": "https://www.calphalon.com › cookware-by-product-type"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 20,
+                            "rank_absolute": 23,
+                            "domain": "direct.asda.com",
+                            "title": "Pots & Pans - Saucepans, Frying & Sets",
+                            "description": "Become your own masterchef with our range of pots & pans. Perfect for simple dinners, special occasions and more, explore our full range here.",
+                            "url": "https://direct.asda.com/george/home/pots-pans/D26M08G08C12,default,sc.html",
+                            "breadcrumb": "https://direct.asda.com › Home › Home"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 21,
+                            "rank_absolute": 24,
+                            "domain": "www.amazon.co.uk",
+                            "title": "Pots & Pans - Amazon.co.uk",
+                            "description": "Top ratedTop rated · CAROTE Saute Pan with Lid, Non Stick Induction Deep Frying Pan with Lid, Stir · Tower Cerastone T81276 Forged 5 Piece Pan Set with Non- ...",
+                            "url": "https://www.amazon.co.uk/Pots-Pans/b?ie=UTF8&node=3000290031",
+                            "breadcrumb": "https://www.amazon.co.uk › Pots-Pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 22,
+                            "rank_absolute": 25,
+                            "domain": "www.ikea.com",
+                            "title": "Kitchen Pots and Pans - Durable & Affordable",
+                            "description": "Shop our selection of quality kitchen pots and pans featuring stainless steel or non stick surfaces, pressure cookers and more.",
+                            "url": "https://www.ikea.com/us/en/cat/kitchen-pots-pans-20633/",
+                            "breadcrumb": "https://www.ikea.com › ... › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 23,
+                            "rank_absolute": 26,
+                            "domain": "www.tefal.co.uk",
+                            "title": "Pots & Pans",
+                            "description": "Create exquisite cooking results with Tefal. With our array of non-stick, durable products, you're guaranteed to deliver superb & delicious food, time and ...",
+                            "url": "https://www.tefal.co.uk/Cookware/Pots-&-Pans/c/tefal%2Bcookware",
+                            "breadcrumb": "https://www.tefal.co.uk › Pots-&-Pans › tefal+cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 24,
+                            "rank_absolute": 27,
+                            "domain": "berghoffworldwide.com",
+                            "title": "Pots & pans | BergHOFF Official Website",
+                            "description": "With the right pot or pan you'll cook your meal to perfection every single time. Stock your kitchen with the BergHOFF frying pans, stockpots, saucepans...",
+                            "url": "https://berghoffworldwide.com/en/pots-and-pans",
+                            "breadcrumb": "https://berghoffworldwide.com › pots-and-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 25,
+                            "rank_absolute": 28,
+                            "domain": "fromourplace.com",
+                            "title": "Cookware Sets, Cookware Pots, Pans and Collections",
+                            "description": "Take up to 30% OFF multifunctional pieces that will change the way you cook at home.",
+                            "url": "https://fromourplace.com/collections/cookware",
+                            "breadcrumb": "https://fromourplace.com › collections › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 26,
+                            "rank_absolute": 29,
+                            "domain": "www.oxo.com",
+                            "title": "OXO Cookware, Pots & Pans",
+                            "description": "Premium pots and pans for every home cook.",
+                            "url": "https://www.oxo.com/shop/kitchenware/cooking-baking/cookware.html",
+                            "breadcrumb": "https://www.oxo.com › kitchenware › cooking-baking"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 27,
+                            "rank_absolute": 30,
+                            "domain": "madeincookware.com",
+                            "title": "Made In: Professional-Quality Cookware, Non Stick, Carbon ...",
+                            "description": "Invest in proper cookware that's guaranteed to last a lifetime. · Stainless Clad Frying Pan · 12\" · $129.",
+                            "url": "https://madeincookware.com/",
+                            "breadcrumb": "https://madeincookware.com"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 28,
+                            "rank_absolute": 31,
+                            "domain": "alessi.com",
+                            "title": "Cookware & Pan Sets",
+                            "description": "Cookware & Pan Sets. Make cooking an artform, with Alessi's elegantly designed pots, pans, woks and boilers. Cookware sets and essentials moulded by over 100 ...",
+                            "url": "https://alessi.com/collections/pots-pans-1",
+                            "breadcrumb": "https://alessi.com › collections › pots-pans-1"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 29,
+                            "rank_absolute": 32,
+                            "domain": "anolon.com",
+                            "title": "Cookware: Kitchen Pots, Pans, and More",
+                            "description": "Experience the perfect blend of quality, durability, and style with our cookware. Shop for Anolon's collection of pots, pans, ovens, and more today.",
+                            "url": "https://anolon.com/collections/cookware",
+                            "breadcrumb": "https://anolon.com › collections › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 30,
+                            "rank_absolute": 33,
+                            "domain": "www.target.com",
+                            "title": "Pots & Pans",
+                            "description": "Get Pots & Pans from Target to save money and time. Select Same Day Delivery or Drive Up for easy contactless purchases.",
+                            "url": "https://www.target.com/c/pots-pans-cookware-kitchen-dining/-/N-yqpat",
+                            "breadcrumb": "https://www.target.com › Kitchen & Dining › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 31,
+                            "rank_absolute": 34,
+                            "domain": "www.marksandspencer.com",
+                            "title": "Pots & Pans | M&S",
+                            "description": "Pots & Pans · 5 Piece Black Aluminium Non Stick Pan Set · 2 Piece Stainless Steel Frying Pan Set · 5 Piece Stainless Steel Pan Set.",
+                            "url": "https://www.marksandspencer.com/l/home-and-furniture/kitchenware/pots-and-pans",
+                            "breadcrumb": "https://www.marksandspencer.com › ... › Kitchenware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 32,
+                            "rank_absolute": 35,
+                            "domain": "www.consumerreports.org",
+                            "title": "Best Cookware Buying Guide",
+                            "description": "Consumer Reports buys and tests stainless and nonstick cookware sets, Dutch ovens, and a variety of frying pans, including nonstick, stainless, cast iron, ...",
+                            "url": "https://www.consumerreports.org/home-garden/cookware/buying-guide/",
+                            "breadcrumb": "https://www.consumerreports.org › ... › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 33,
+                            "rank_absolute": 36,
+                            "domain": "www.tjhughes.co.uk",
+                            "title": "Pots & Pans",
+                            "description": "Join Our Newsletter ... Need help? contact@tjhughes.co.uk.",
+                            "url": "https://www.tjhughes.co.uk/collections/pots-pans",
+                            "breadcrumb": "https://www.tjhughes.co.uk › collections › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 34,
+                            "rank_absolute": 37,
+                            "domain": "farberwarecookware.com",
+                            "title": "Cookwares Sets, Pot and Pans",
+                            "description": "Cookware collections with kitchen essentials including frying pans, stockpots, and more. Visit Farberware cookware and elevate your cooking game.",
+                            "url": "https://farberwarecookware.com/collections/cookware-sets",
+                            "breadcrumb": "https://farberwarecookware.com › collections › cookw..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 35,
+                            "rank_absolute": 38,
+                            "domain": "ninjakitchen.co.uk",
+                            "title": "Ninja Cookware | ZEROSTICK Pots and Pans",
+                            "description": "Zero stick, chip or flake. ZEROSTICK is up to 20x tougher than traditional non-stick*. Whether you're a kitchen newcomer or experienced chef, discover durable, ...",
+                            "url": "https://ninjakitchen.co.uk/ninja-catalog/ninja-cookware/",
+                            "breadcrumb": "https://ninjakitchen.co.uk › ninja-catalog › ninja-cook..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 36,
+                            "rank_absolute": 39,
+                            "domain": "www.williams-sonoma.com",
+                            "title": "Cookware",
+                            "description": "Discover the art of cooking with Williams Sonoma's premium cookware. From expertly crafted cooking pans to versatile pots and pans, explore our selection ...",
+                            "url": "https://www.williams-sonoma.com/shop/cookware/",
+                            "breadcrumb": "https://www.williams-sonoma.com › shop › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 37,
+                            "rank_absolute": 40,
+                            "domain": "www.canadiantire.ca",
+                            "title": "Cookware",
+                            "description": "Shop our wide assortment of cookware for your kitchen. Find the best pots, pans, skillets, cookware sets, Dutch ovens and more.",
+                            "url": "https://www.canadiantire.ca/en/cat/home-pets/kitchen-dining/cookware-DC0000975.html",
+                            "breadcrumb": "https://www.canadiantire.ca › ... › Kitchen & Dining"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 38,
+                            "rank_absolute": 41,
+                            "domain": "www.boroughkitchen.com",
+                            "title": "Pots & Pans - Cookware Sets & Individuals",
+                            "description": "Made in Shropshire, Netherton Foundry's spun iron cookware is completely unique. Their pans combine the quick heat responsiveness of carbon steel and the oiled ...",
+                            "url": "https://www.boroughkitchen.com/collections/pots-pans",
+                            "breadcrumb": "https://www.boroughkitchen.com › collections › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 39,
+                            "rank_absolute": 42,
+                            "domain": "www.stokesstores.com",
+                            "title": "Cookware sets, pots & saucepans - English",
+                            "description": "Sign Up to Our Newsletter. Be in the know! Subscribe to receive shipping updates, reminders, info about new product launches and exclusive offers.",
+                            "url": "https://www.stokesstores.com/en/cooking-baking/cookware/cookware-sets-pots-saucepans.html",
+                            "breadcrumb": "https://www.stokesstores.com › cooking-baking › coo..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 40,
+                            "rank_absolute": 43,
+                            "domain": "www.all-clad.com",
+                            "title": "All-Clad: Stainless Steel Cookware, Bakeware, Kitchen ...",
+                            "description": "Since 1971 All-Clad has been handcrafting bonded stainless steel pots and pans Made in the USA for home cooks and professional chefs. Shop now.",
+                            "url": "https://www.all-clad.com/",
+                            "breadcrumb": "https://www.all-clad.com"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 41,
+                            "rank_absolute": 45,
+                            "domain": "www.homestoreandmore.ie",
+                            "title": "Pots & Pans - Home Store + More",
+                            "description": "View our selection of pots and pans in a range of different sizes and get the right pans to suit your cooking requirements, ...",
+                            "url": "https://www.homestoreandmore.ie/pots-pans",
+                            "breadcrumb": "https://www.homestoreandmore.ie › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 42,
+                            "rank_absolute": 46,
+                            "domain": "salter.com",
+                            "title": "Shop Salter Non Stick Cookware, Pots & Pan Sets",
+                            "description": "Megastone Collection Non-Stick Forged Aluminium Frying Pan, 28 cm, SilverFeaturing a unique cooking surface made from a high-quality hard stone ...",
+                            "url": "https://salter.com/cookware/",
+                            "breadcrumb": "https://salter.com › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 43,
+                            "rank_absolute": 47,
+                            "domain": "www.seriouseats.com",
+                            "title": "Essential Pots and Pans: The Cookware Every Kitchen ...",
+                            "description": "Essential Pots and Pans: The Cookware Every Kitchen Needs · A 10 1/4– or 12-Inch Cast Iron Skillet. cast iron pan pizza · A Large Enameled Dutch Oven · A ...",
+                            "url": "https://www.seriouseats.com/gift-guide-essential-pots-and-pans-presents-for-home-cooks",
+                            "breadcrumb": "https://www.seriouseats.com › Equipment › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 44,
+                            "rank_absolute": 48,
+                            "domain": "www.carawayhome.com",
+                            "title": "Ceramic Cookware Set | Nonstick Pots & Pans Set | Non-Toxic ...",
+                            "description": "With our ceramic-coated pots and pans cookware set, cooking & cleaning is now a breeze. Our ceramic cookware features non-toxic materials & a nonstick ...",
+                            "url": "https://www.carawayhome.com/products/cookware-sets/",
+                            "breadcrumb": "https://www.carawayhome.com › products › cookware..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 45,
+                            "rank_absolute": 49,
+                            "domain": "trangia.se",
+                            "title": "Pots & Pans-arkiv",
+                            "description": "All pots can be used over an open fire or on a spirit burner or gas stove as a heat source. The larger billys are available with or without non-stick coating ...",
+                            "url": "https://trangia.se/en/product-category/pots-pans/",
+                            "breadcrumb": "https://trangia.se › product-category › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 46,
+                            "rank_absolute": 50,
+                            "domain": "www.tesco.com",
+                            "title": "Pots & Pans - Tesco Groceries",
+                            "description": "Get quality Pots & Pans at Tesco. Shop in store or online. Delivery 7 days a week. Earn Clubcard points when you shop.",
+                            "url": "https://www.tesco.com/groceries/en-GB/shop/home-and-ents/cooking-and-dining/pots-and-pans",
+                            "breadcrumb": "https://www.tesco.com › ... › Cooking & Dining"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 47,
+                            "rank_absolute": 51,
+                            "domain": "www.marksandspencer.com",
+                            "title": "Pots & pans | Home",
+                            "description": "Shop Pots & pans at Marks and Spencer . For versatile Pots & pans with classic styling and contemporary elegance, visit Marks and Spencer.",
+                            "url": "https://www.marksandspencer.com/dk/l/home/pots-and-pans/",
+                            "breadcrumb": "https://www.marksandspencer.com › Home › Home"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 48,
+                            "rank_absolute": 52,
+                            "domain": "www.next.co.uk",
+                            "title": "Pots & Pans Sets | Cast Iron & Non Stick Pans",
+                            "description": "Pots & Pan Sets · Stellar Silver 7000 5 Piece Non Stick Draining Saucepan Set · Tower 3 Piece Clear Forged Pan Set · Stellar Chrome Stellar Induction Four Piece ...",
+                            "url": "https://www.next.co.uk/shop/department-homeware-productaffiliation-kitchen/category-potspans",
+                            "breadcrumb": "https://www.next.co.uk › shop › category-potspans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 49,
+                            "rank_absolute": 53,
+                            "domain": "www.nordicnest.com",
+                            "title": "Pots & Pans - Shop at NordicNest.com",
+                            "description": "Pots & pans · Demeyere Specialties glass lid, Ø 24 cm · Demeyere Specialties glass lid, Ø 28 cm · Moomin Bon Appétit saucepan 1.3 liter, Beige · Moomin oven ...",
+                            "url": "https://www.nordicnest.com/cookware--kitchen-accessories/pots--pans/",
+                            "breadcrumb": "https://www.nordicnest.com › pots--pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 50,
+                            "rank_absolute": 54,
+                            "domain": "reviewed.usatoday.com",
+                            "title": "The Best Cookware Sets of 2024 - Reviewed - USA Today",
+                            "description": "You get seven well-built pots and pans, plus lids and pan protectors to separate skillets in storage. The nonstick properties are top-notch ...",
+                            "url": "https://reviewed.usatoday.com/pots-pans/best-right-now/the-best-cookware-sets",
+                            "breadcrumb": "https://reviewed.usatoday.com › best-right-now › the-..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 51,
+                            "rank_absolute": 55,
+                            "domain": "nymag.com",
+                            "title": "All the Best Pots and Pans We've Ever Written About",
+                            "description": "The best overall saucepan ... When we spoke to experts to find the best-in-class saucepans, the top recommendation was All-Clad's 1.5-quart-size ...",
+                            "url": "https://nymag.com/strategist/article/best-pots-and-pans.html",
+                            "breadcrumb": "https://nymag.com › strategist › article › best-pots-and-p..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 52,
+                            "rank_absolute": 56,
+                            "domain": "www.homedepot.com",
+                            "title": "Pot & Pan Sets - Cookware",
+                            "description": "Savings Center · Hammered 10-Piece Stainless Steel Tri-Ply Nonstick Ultra Premium Ceramic Cookware Set · 15-Piece Aluminum Ultra-Durable ...",
+                            "url": "https://www.homedepot.com/b/Kitchen-Kitchenware-Cookware-Pot-Pan-Sets/N-5yc1vZcenz",
+                            "breadcrumb": "https://www.homedepot.com › ... › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 53,
+                            "rank_absolute": 57,
+                            "domain": "www.webstaurantstore.com",
+                            "title": "Different Types of Cookware: Pots, Pans, and Bakeware",
+                            "description": "Types of Pots · 1. Brazier · 2. Sauce Pot · 3. Stock Pot · 4. Fryer Pot · 5. Pasta Pot · 6. Dutch Oven · 7. Double Boiler.",
+                            "url": "https://www.webstaurantstore.com/guide/501/types-of-cookware.html",
+                            "breadcrumb": "https://www.webstaurantstore.com › ... › Smallwares"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 54,
+                            "rank_absolute": 58,
+                            "domain": "groceries.morrisons.com",
+                            "title": "Pots, Pans & Prep: Cookware: Kitchen: Home & Garden",
+                            "description": "Online supermarket shopping is easy at Morrisons. Home delivery with convenient 1 hour slots and new low prices. Check your postcode today.",
+                            "url": "https://groceries.morrisons.com/browse/home-garden-166274/kitchen-166317/cookware-166327/pots-pans-prep-166343",
+                            "breadcrumb": "https://groceries.morrisons.com › cookware-166327"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 55,
+                            "rank_absolute": 59,
+                            "domain": "www.ebay.com",
+                            "title": "Cookware for sale",
+                            "description": "Carote 10 Pcs Pots and Pans Set Nonstick Granite Induction Kitchen Cookware Sets · Stainless Stee Cookware Set Pots Sauce Pans Frying Pan Set 12 Pieces, Silver.",
+                            "url": "https://www.ebay.com/b/Cookware/259322/bn_7115656410",
+                            "breadcrumb": "https://www.ebay.com › ... › Kitchen, Dining & Bar"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 56,
+                            "rank_absolute": 60,
+                            "domain": "www.t-falusa.com",
+                            "title": "Pots & Pans",
+                            "description": "Pots & Pans · T-fal Excite Nonstick Cookware, 14 piece Set, Red · T-fal Excite 8\" & 10.5\" 2-Piece Frypan Set, Red · T-fal Excite Non-Stick 12\" Frypan, Red · T- ...",
+                            "url": "https://www.t-falusa.com/Cookware/Pots-&-Pans/c/pots%2B&%2Bpans",
+                            "breadcrumb": "https://www.t-falusa.com › Cookware › pots+&+pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 57,
+                            "rank_absolute": 61,
+                            "domain": "www.calphalon.com",
+                            "title": "Shop Cookware by Type, Material, & Collection",
+                            "description": "Calphalon Cookware. Equip your kitchen with the best pots and pans to create memorable meals. Shop Cookware. Previous. assorted nonstick cookware and ...",
+                            "url": "https://www.calphalon.com/cookware.html",
+                            "breadcrumb": "https://www.calphalon.com › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 58,
+                            "rank_absolute": 62,
+                            "domain": "www.etsy.com",
+                            "title": "Pots & Pans - Etsy Denmark",
+                            "description": "Shop pots & pans from Etsy sellers. Free shipping may be available!",
+                            "url": "https://www.etsy.com/dk-en/c/home-and-living/kitchen-and-dining/cookware/pots-and-pans",
+                            "breadcrumb": "https://www.etsy.com › ... › Cookware › Pots & Pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 59,
+                            "rank_absolute": 63,
+                            "domain": "www.carawayhome.com",
+                            "title": "Ceramic Non-Stick Cookware: Non-Toxic Pots and Pans ...",
+                            "description": "We design non-toxic, ceramic-coated non-stick home goods that raise the standards of what you cook and bake with. Discover Caraway cookware and bakeware.",
+                            "url": "https://www.carawayhome.com/",
+                            "breadcrumb": "https://www.carawayhome.com"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 60,
+                            "rank_absolute": 64,
+                            "domain": "www.abt.com",
+                            "title": "Cookware Buying Guide - Types of Pots and Pans",
+                            "description": "Types of Cookware · Stock Pot · Fry Pan/Skillet · Cast Iron Skillet · Sauté Pan · Sauce Pan · Braiser Pan · Griddle/Grill Pan · Wok. Wok. Woks ...",
+                            "url": "https://www.abt.com/learn/cookware-buying-guide",
+                            "breadcrumb": "https://www.abt.com › learn › cookware-buying-guide"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 61,
+                            "rank_absolute": 65,
+                            "domain": "www.debenhams.com",
+                            "title": "Pots & Pans",
+                            "description": "With this professional cookware range, the choice is all yours. Spruce up your kitchen collection with our huge range of pots and pans, which will make light ...",
+                            "url": "https://www.debenhams.com/categories/home-kitchenware-pots-pans",
+                            "breadcrumb": "https://www.debenhams.com › categories › home-kitche..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 62,
+                            "rank_absolute": 66,
+                            "domain": "www.goodhousekeeping.com",
+                            "title": "13 best pan sets for all hob types, tested by the GHI",
+                            "description": "What's the best pan set for my kitchen? · Circulon Momentum 5-Piece Hard Anodised Non-Stick Cookware Set · Ninja Foodi ZEROSTICK 5-Piece Pan Set ...",
+                            "url": "https://www.goodhousekeeping.com/uk/product-reviews/house-garden/g688654/best-pan-sets/",
+                            "breadcrumb": "https://www.goodhousekeeping.com › house-garden"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 63,
+                            "rank_absolute": 67,
+                            "domain": "www.briscoes.co.nz",
+                            "title": "Buy Pots, Pans & Saucepans in New Zealand",
+                            "description": "At Briscoes, we specialise in pots, frying pans, woks, stock pots, cookware, steamers and all your other essential homewares from high-quality brands like ...",
+                            "url": "https://www.briscoes.co.nz/kitchen/pots-and-pans/",
+                            "breadcrumb": "https://www.briscoes.co.nz › Kitchen"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 64,
+                            "rank_absolute": 68,
+                            "domain": "www.yuppiechef.com",
+                            "title": "Cookware - Shop Pots & Non-Stick Frying Pans",
+                            "description": "Shop for the best cookware online — from non-stick frying pans, to stainless steel pots, cast iron casseroles and cooking sets.",
+                            "url": "https://www.yuppiechef.com/cookware.htm",
+                            "breadcrumb": "https://www.yuppiechef.com › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 65,
+                            "rank_absolute": 69,
+                            "domain": "www.denbypottery.com",
+                            "title": "Pots & Pans for All Hob Types, Including Induction",
+                            "description": "Denby offers high-quality cast aluminium, stainless steel & anodised pans for induction, gas, electric, ceramic, halogen & solid fuel hobs. Shop online now.",
+                            "url": "https://www.denbypottery.com/pots-pans",
+                            "breadcrumb": "https://www.denbypottery.com › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 66,
+                            "rank_absolute": 70,
+                            "domain": "bergner-collection.com",
+                            "title": "Pots & Pans - Bergner Europe",
+                            "description": "Bergner presents its magnificent cookware sets. These cookware sets from Bergner are complete and cater for all your needs so that you can cook with ease day ...",
+                            "url": "https://bergner-collection.com/en/category/pots-and-pans",
+                            "breadcrumb": "https://bergner-collection.com › category › pots-and-p..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 67,
+                            "rank_absolute": 71,
+                            "domain": "www.pyrex.eu",
+                            "title": "Pots & pans - Pyrex® Webshop EU",
+                            "description": "The pyrex pots & pans are the essential tools for any type of chefs whether you are new to cooking or an expert. Stainless steel or aluminium, induction or ...",
+                            "url": "https://www.pyrex.eu/collections/pots-and-pans",
+                            "breadcrumb": "https://www.pyrex.eu › collections › pots-and-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 68,
+                            "rank_absolute": 72,
+                            "domain": "www.thespruceeats.com",
+                            "title": "The 9 Best Cookware Sets of 2024, Tested & Reviewed",
+                            "description": "This Tramontina cookware set proves that you can get amazingly great pots and pans for an affordable price. Made from 18/10 stainless steel, ...",
+                            "url": "https://www.thespruceeats.com/best-cookware-sets-4077248",
+                            "breadcrumb": "https://www.thespruceeats.com › ... › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 69,
+                            "rank_absolute": 73,
+                            "domain": "www.hartsofstur.com",
+                            "title": "Pots & Pans - Cooking",
+                            "description": "We have pans made from stainless steel or aluminium to more modern non-stick and induction cookware. All of the pots and pans we sell are ...",
+                            "url": "https://www.hartsofstur.com/cooking/pots-pans.html",
+                            "breadcrumb": "https://www.hartsofstur.com › cooking › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 70,
+                            "rank_absolute": 74,
+                            "domain": "www.jcpenney.com",
+                            "title": "Stainless Steel Cookware Sets | Pots & Pans",
+                            "description": "Explore an amazing range of stainless-steel cookware sets at JCPenney. Find popular brands like Cooks, Granitestone, BergHOFF, & more.",
+                            "url": "https://www.jcpenney.com/g/home-store/kitchen-dining/cookware?id=cat100240017",
+                            "breadcrumb": "https://www.jcpenney.com › ... › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 71,
+                            "rank_absolute": 75,
+                            "domain": "www.houseoffraser.co.uk",
+                            "title": "Pots and Pans | Saucepans and Dishes",
+                            "description": "Pots and Pans · Tefal - 5PCE COOKW 43. Quick view · Green Pan - Green Pan Grill44. Quick view · Green Pan - Green Pan Skillet44. Quick view · Green Pan - Green ...",
+                            "url": "https://www.houseoffraser.co.uk/home-and-furniture/pots-and-pans",
+                            "breadcrumb": "https://www.houseoffraser.co.uk › ... › Kitchen"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 72,
+                            "rank_absolute": 76,
+                            "domain": "www.therange.co.uk",
+                            "title": "Pots & Pans - Saucepans & Frying Pans",
+                            "description": "Essential for any kitchen, shop our quality collection of pots and pans, crock pots, frying pans, casserole dishes and moe.",
+                            "url": "https://www.therange.co.uk/cooking-and-dining/cookware/pots-and-pans/",
+                            "breadcrumb": "https://www.therange.co.uk › ... › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 73,
+                            "rank_absolute": 77,
+                            "domain": "www.viners.co.uk",
+                            "title": "Pots & Pans - Kitchenware - Products",
+                            "description": "Constructed from stainless steel, our range of saucepans and pots are durable and strong. Featuring specially designed soft touch handles for comfort and grip ...",
+                            "url": "https://www.viners.co.uk/products/kitchenware/pots-pans/",
+                            "breadcrumb": "https://www.viners.co.uk › products › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 74,
+                            "rank_absolute": 78,
+                            "domain": "www.yourkitchen.eu",
+                            "title": "Want to buy Pots and pans? Order online now!",
+                            "description": "C&T Fondue plate - D24.5cm - 6 compartments - Porcelain - (set of 6). Fondue plate - D24,5cm - 6 compartments - Porcelain - (set o.. ... C&T Chef-line Pro - ...",
+                            "url": "https://www.yourkitchen.eu/en/cooking-and-baking/pots-and-pans/",
+                            "breadcrumb": "https://www.yourkitchen.eu › cooking-and-baking › p..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 75,
+                            "rank_absolute": 79,
+                            "domain": "rachaelray.com",
+                            "title": "Kitchen Cookware: Pots, Pans, & More",
+                            "description": "From griddles and stir-fries to woks and casseroles, all you need for your kitchen can be found in Rachael Ray's cookware collection. Shop now.",
+                            "url": "https://rachaelray.com/collections/cookware",
+                            "breadcrumb": "https://rachaelray.com › collections › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 76,
+                            "rank_absolute": 80,
+                            "domain": "www.webstaurantstore.com",
+                            "title": "Commercial Cookware: Restaurant Pots & Pans",
+                            "description": "Shop by Line · Vigor Cookware · Vollrath Cookware · Valor Cookware · Choice Aluminum Cookware · Bon Chef Cookware · de Buyer Cookware.",
+                            "url": "https://www.webstaurantstore.com/cookware.html",
+                            "breadcrumb": "https://www.webstaurantstore.com › Smallwares"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 77,
+                            "rank_absolute": 81,
+                            "domain": "www.nytimes.com",
+                            "title": "Pots, Pans and Cookware | Wirecutter",
+                            "description": "Here's our favorite cookware, the result of many hours of research and testing. We're confident that these pieces—from skillets to nonstick pans to dutch ovens ...",
+                            "url": "https://www.nytimes.com/wirecutter/kitchen-dining/cookware/",
+                            "breadcrumb": "https://www.nytimes.com › wirecutter › kitchen-dining"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 78,
+                            "rank_absolute": 82,
+                            "domain": "www.wayfair.com",
+                            "title": "Pots, Pans & Skillets You'll Love in 2024",
+                            "description": "Shop Wayfair for Pots, Pans & Skillets to match every style and budget. Enjoy Free Shipping on most stuff, even big stuff.",
+                            "url": "https://www.wayfair.com/kitchen-tabletop/cat/pots-pans-skillets-c1871723.html",
+                            "breadcrumb": "https://www.wayfair.com › kitchen-tabletop › cat › po..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 79,
+                            "rank_absolute": 83,
+                            "domain": "www.very.co.uk",
+                            "title": "Pots & pans | Cookware | Home & garden",
+                            "description": "Discover our huge Pots & Pans range at very.co.uk. With buy now pay later option available and easy free returns.",
+                            "url": "https://www.very.co.uk/home-garden/cookware/pots-pans/e/b/13482.end",
+                            "breadcrumb": "https://www.very.co.uk › Home & Garden › Cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 80,
+                            "rank_absolute": 84,
+                            "domain": "www.spotlightstores.com",
+                            "title": "Shop Cookware On Sale | Pots & Pans",
+                            "description": "No matter if you need individual pots and pans or new cookware sets, you can find the best cooking pans at Spotlight. Browse the range online and pay ...",
+                            "url": "https://www.spotlightstores.com/kitchen/cookware",
+                            "breadcrumb": "https://www.spotlightstores.com › Kitchen"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 81,
+                            "rank_absolute": 85,
+                            "domain": "www.everythingkitchens.com",
+                            "title": "Blog - Guide to Cookware Material - Best Pots & Pans ...",
+                            "description": "Shop All Enameled Cast Iron Cookware Sets ... Best Cookware Material For: Ultimate control while cooking. Copper cookware has the best heat distribution and heats ...",
+                            "url": "https://www.everythingkitchens.com/blog/guide-to-cookware-material-best-pots-pans-material-for-the-kitchen.html",
+                            "breadcrumb": "https://www.everythingkitchens.com › Blog"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 82,
+                            "rank_absolute": 86,
+                            "domain": "www.lakeland.co.uk",
+                            "title": "Pots & Pans | Induction & Non-Stick | Shop Online",
+                            "description": "pots and pans · Lakeland Classic 28cm Induction Chefs Pan · Lakeland Stainless Steel Non-Stick Frying Pan - 24cm · Lakeland Forged Aluminium 25cm Crêpe Pan.",
+                            "url": "https://www.lakeland.co.uk/in-the-kitchen/cooking/pots-and-pans",
+                            "breadcrumb": "https://www.lakeland.co.uk › in the kitchen › cooking"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 83,
+                            "rank_absolute": 87,
+                            "domain": "www.epicurious.com",
+                            "title": "All the Best Pots and Pans We've Ever Tested",
+                            "description": "28 Jul 2021",
+                            "url": "https://www.epicurious.com/shopping/best-pots-and-pans-article",
+                            "breadcrumb": "https://www.epicurious.com › Shopping › Shopping"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 84,
+                            "rank_absolute": 88,
+                            "domain": "www.cuisinart.com",
+                            "title": "Cookware: Cooking Pots, Pans & Sets",
+                            "description": "Find high-quality cookware at Cuisinart. Shop our everyday and specialty pots and pans, stylish and durable cookware sets. Free shipping over $35.",
+                            "url": "https://www.cuisinart.com/shopping/cookware/",
+                            "breadcrumb": "https://www.cuisinart.com › Shop by category"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 85,
+                            "rank_absolute": 89,
+                            "domain": "www.hartsofstur.com",
+                            "title": "Cookware Sets - Pots & Pans",
+                            "description": "Cookware Sets · Stoven Professional Induction Stainless Steel 5 Piece Cookware Set · Stellar 7000 Draining 5 Piece Set · Stellar 7000 Non- ...",
+                            "url": "https://www.hartsofstur.com/cooking/pots-pans/cookware-sets.html",
+                            "breadcrumb": "https://www.hartsofstur.com › cooking › cookware-sets"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 86,
+                            "rank_absolute": 90,
+                            "domain": "www.mrphome.com",
+                            "title": "Pots and Pans",
+                            "description": "Cast Iron Frying Pan ZAR499. · Cast Iron Flat Pot ZAR999. · Cast Iron Deep Pot ZAR999.",
+                            "url": "https://www.mrphome.com/en_za/shop/kitchen-dining/shop-kitchen/cooking-baking/pots-and-pans",
+                            "breadcrumb": "https://www.mrphome.com › ... › Cooking & Baking"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 87,
+                            "rank_absolute": 91,
+                            "domain": "royaldesign.com",
+                            "title": "Buy cookware & pan sets online",
+                            "description": "Choose between our many pan and cookware sets. An affordable cookware set is perfect to give away as a gift to the new student planning on moving into their ...",
+                            "url": "https://royaldesign.com/eu/kitchen/pots--pans/cookware-sets",
+                            "breadcrumb": "https://royaldesign.com › / › Kitchen › Pots & Pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 88,
+                            "rank_absolute": 92,
+                            "domain": "www.souschef.co.uk",
+                            "title": "Pots and Pans - Buy Online at Sous Chef UK",
+                            "description": "We have a large range of pots and pans including cast iron pans, non stick frying pans, paella pans and dishes and crepe pans. In addition, we stock high ...",
+                            "url": "https://www.souschef.co.uk/collections/pots-pans",
+                            "breadcrumb": "https://www.souschef.co.uk › collections › pots-pans"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 89,
+                            "rank_absolute": 93,
+                            "domain": "www.woodies.ie",
+                            "title": "Cookware - Buy Pots & Pans Ireland",
+                            "description": "Here you will find everything you need to create those perfect meals, from saucepans and oven dishes to cooker filters.",
+                            "url": "https://www.woodies.ie/homewares-furniture/kitchenware/cooking",
+                            "breadcrumb": "https://www.woodies.ie › ... › Kitchenware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 90,
+                            "rank_absolute": 94,
+                            "domain": "www.surlatable.com",
+                            "title": "Cookware | Pots, Pans & More",
+                            "description": "Our collection features a wide range of options for equipping your kitchen, from classic cast iron pots to nonstick skillets and beyond.",
+                            "url": "https://www.surlatable.com/products/cookware/",
+                            "breadcrumb": "https://www.surlatable.com › products › cookware"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 91,
+                            "rank_absolute": 95,
+                            "domain": "www.ebay.co.uk",
+                            "title": "Pots & Pans for Sale",
+                            "description": "Cheap Pots & Pans for sale - Free shipping on many items - Browse frying pans, saucepan sets & induction pans on eBay.",
+                            "url": "https://www.ebay.co.uk/b/bn_2316024",
+                            "breadcrumb": "https://www.ebay.co.uk › ... › Cookware, Dining & Bar"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 92,
+                            "rank_absolute": 96,
+                            "domain": "www.kitchenkapers.com",
+                            "title": "Cookware Materials- Which is the Best?",
+                            "description": "What's the best material for cookware? Well, that all depends on how and what you're cooking. From cast iron to ceramic, find the pan just right for your ...",
+                            "url": "https://www.kitchenkapers.com/pages/cookware-materials-and-why-they-matter",
+                            "breadcrumb": "https://www.kitchenkapers.com › pages › cookware-m..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 93,
+                            "rank_absolute": 97,
+                            "domain": "www.currys.co.uk",
+                            "title": "Cheap Pots and pan Deals",
+                            "description": "Fortunately, at Currys, our extensive collection of pots and pans showcases plenty of induction-friendly designs from leading brands like Bosch, AEG, ...",
+                            "url": "https://www.currys.co.uk/home-and-outdoor/cooking-and-baking/cooking/pots-and-pans",
+                            "breadcrumb": "https://www.currys.co.uk › ... › Cooking"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 94,
+                            "rank_absolute": 98,
+                            "domain": "www.kohls.com",
+                            "title": "Pots & Pans: Shop Cookware Sets, Roasting Pans & More",
+                            "description": "Kohl's is the place to get top rated cookware and kitchenware sets. We feature all the pots and pans and kitchen essentials it takes to produce the perfect dish ...",
+                            "url": "https://www.kohls.com/catalog/pots-pans-cookware-bakeware-kitchen-dining.jsp?CN=Product:Pots%20%26%20Pans+Category:Cookware%20%26%20Bakeware+Department:Kitchen%20%26%20Dining",
+                            "breadcrumb": "https://www.kohls.com › catalog › pots-pans-cookware-b..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 95,
+                            "rank_absolute": 99,
+                            "domain": "www.boozt.com",
+                            "title": "Pots & Pans - Large selection of the newest styles",
+                            "description": "Buy pots & pans online at Boozt.com. Fast delivery and easy returns. Choose from a huge selection of affordable products.",
+                            "url": "https://www.boozt.com/eu/en/homeware/happy-valentines/home/kitchen/pots-pans",
+                            "breadcrumb": "https://www.boozt.com › ... › Happy Valentine's › Kitchen"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 96,
+                            "rank_absolute": 100,
+                            "domain": "www.nisbets.ie",
+                            "title": "Cookware, Pots and Pans, Woks & Oven to Table",
+                            "description": "Buy Cookware from leading catering equipment supplier Nisbets. Free next day delivery on orders over €70! Low prices on Cookware guaranteed.",
+                            "url": "https://www.nisbets.ie/kitchenware-and-knives/cookware/_/a33-2",
+                            "breadcrumb": "https://www.nisbets.ie › kitchenware-and-knives › coo..."
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 97,
+                            "rank_absolute": 101,
+                            "domain": "goop.com",
+                            "title": "Pots & Pans",
+                            "description": "Shop all Pots & Pans at goop.com. goop your kitchen. Get free shipping on orders over $75.",
+                            "url": "https://goop.com/pots-and-pans/c/",
+                            "breadcrumb": "https://goop.com › Home Decor › Kitchen"
+                        },
+                        {
+                            "type": "organic",
+                            "rank_group": 98,
+                            "rank_absolute": 102,
+                            "domain": "www.argos.co.uk",
+                            "title": "Pan Sets | Saucepan Sets",
+                            "description": "Pan sets. Save up to 1/2 price on selected cook & kitchenware. Shop Cookware now.",
+                            "url": "https://www.argos.co.uk/browse/home-and-furniture/cookware/pan-sets/c:29734/",
+                            "breadcrumb": "https://www.argos.co.uk › ... › Cookware › Pan sets"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

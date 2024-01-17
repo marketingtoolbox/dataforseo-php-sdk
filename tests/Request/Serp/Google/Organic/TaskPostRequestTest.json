@@ -1,0 +1,66 @@
+{
+    "version": "0.1.20231117",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0768 sec.",
+    "cost": 0.0012,
+    "tasks_count": 2,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "01152311-6273-0066-0000-4d9092a29356",
+            "status_code": 20100,
+            "status_message": "Task Created.",
+            "time": "0.0047 sec.",
+            "cost": 0.0006,
+            "result_count": 0,
+            "path": [
+                "v3",
+                "serp",
+                "google",
+                "organic",
+                "task_post"
+            ],
+            "data": {
+                "api": "serp",
+                "function": "task_post",
+                "se": "google",
+                "se_type": "organic",
+                "keyword": "gryder",
+                "language_code": "da",
+                "location_name": "Denmark",
+                "tag": "tag",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": null
+        },
+        {
+            "id": "01152311-6273-0066-0000-75c25f9d00d1",
+            "status_code": 20100,
+            "status_message": "Task Created.",
+            "time": "0.0048 sec.",
+            "cost": 0.0006,
+            "result_count": 0,
+            "path": [
+                "v3",
+                "serp",
+                "google",
+                "organic",
+                "task_post"
+            ],
+            "data": {
+                "api": "serp",
+                "function": "task_post",
+                "se": "google",
+                "se_type": "organic",
+                "keyword": "töpfe",
+                "language_code": "de",
+                "location_name": "Germany",
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": null
+        }
+    ]
+}

@@ -18,6 +18,8 @@ use Psr\Http\Message\StreamFactoryInterface;
 
 final class Client implements ClientInterface
 {
+    private bool $sandbox = false;
+
     private ?HttpRequestInterface $lastHttpRequest = null;
 
     private ?HttpResponseInterface $lastHttpResponse = null;
@@ -38,7 +40,7 @@ final class Client implements ClientInterface
 
     public function request(RequestInterface $request): ResponseInterface
     {
-        $url = sprintf('https://api.dataforseo.com/%s', ltrim($request->getEndpoint(), '/'));
+        $url = sprintf('https://%s.dataforseo.com/%s', $this->sandbox ? 'sandbox' : 'api', ltrim($request->getEndpoint(), '/'));
 
         $httpRequest = $this->getRequestFactory()
             ->createRequest($request->getMethod(), $url)
@@ -64,6 +66,11 @@ final class Client implements ClientInterface
                 $request->getResponseClass(),
                 Source::json((string) $this->lastHttpResponse->getBody())->camelCaseKeys(),
             );
+    }
+
+    public function useSandbox(bool $useSandbox = true): void
+    {
+        $this->sandbox = $useSandbox;
     }
 
     private function getHttpClient(): HttpClientInterface

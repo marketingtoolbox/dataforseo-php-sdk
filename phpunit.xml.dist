@@ -13,7 +13,7 @@
         </testsuite>
     </testsuites>
     <php>
-        <env name="LIVE" value="0"/>
+        <env name="SANDBOX" value="0"/>
         <env name="DATAFORSEO_LOGIN" value=""/>
         <env name="DATAFORSEO_PASSWORD" value=""/>
     </php>
