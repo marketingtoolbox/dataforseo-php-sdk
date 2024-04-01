@@ -14,12 +14,36 @@ use Prophecy\PhpUnit\ProphecyTrait;
 use Psr\Http\Client\ClientInterface as HttpClientInterface;
 use Psr\Http\Message\RequestInterface as HttpRequestInterface;
 use function Symfony\Component\String\u;
+use Webmozart\Assert\Assert;
 
 abstract class AbstractRequestTest extends TestCase
 {
     use ProphecyTrait;
 
     protected Client $client;
+
+    protected function setUp(): void
+    {
+        $login = getenv('DATAFORSEO_LOGIN');
+        Assert::stringNotEmpty($login, 'DATAFORSEO_LOGIN environment variable is not set');
+
+        $password = getenv('DATAFORSEO_PASSWORD');
+        Assert::stringNotEmpty($password, 'DATAFORSEO_PASSWORD environment variable is not set');
+
+        $this->client = new Client($login, $password);
+
+        if (!file_exists($this->getResponseFilename())) {
+            try {
+                $this->client->request($this->getRequest());
+            } catch (\Throwable) {
+            }
+
+            file_put_contents(
+                $this->getResponseFilename(),
+                (string) $this->client->getLastHttpResponse()?->getBody(),
+            );
+        }
+    }
 
     /**
      * @test
@@ -30,7 +54,7 @@ abstract class AbstractRequestTest extends TestCase
         $this->requestAssertions($request);
 
         $httpResponse = Psr17FactoryDiscovery::findResponseFactory()->createResponse(200, 'OK')->withBody(
-            Psr17FactoryDiscovery::findStreamFactory()->createStream($this->getResponseJson()),
+            Psr17FactoryDiscovery::findStreamFactory()->createStream(file_get_contents($this->getResponseFilename())),
         );
 
         $httpClient = $this->prophesize(HttpClientInterface::class);
@@ -41,7 +65,7 @@ abstract class AbstractRequestTest extends TestCase
         try {
             $response = $this->client->request($request);
         } catch (MappingError $error) {
-//            // Get flatten list of all messages through the whole nodes tree
+            // Get flatten list of all messages through the whole nodes tree
 //            $messages = \CuyZ\Valinor\Mapper\Tree\Message\Messages::flattenFromNode(
 //                $error->node(),
 //            );
@@ -68,11 +92,6 @@ abstract class AbstractRequestTest extends TestCase
         $this->responseAssertions($response);
     }
 
-    protected function setUp(): void
-    {
-        $this->client = new Client('login', 'password');
-    }
-
     abstract protected function getRequest(): RequestInterface;
 
     /**
@@ -83,16 +102,13 @@ abstract class AbstractRequestTest extends TestCase
         return null;
     }
 
-    /**
-     * MUST return a valid JSON response
-     */
-    protected function getResponseJson(): string
+    protected function getResponseFilename(): string
     {
         $requestReflection = new \ReflectionClass(static::class);
         $requestFilename = $requestReflection->getFileName();
         self::assertNotFalse($requestFilename);
 
-        return file_get_contents(u($requestFilename)->trimSuffix('.php')->append('.json')->toString());
+        return u($requestFilename)->trimSuffix('.php')->append('.json')->toString();
     }
 
     protected function requestAssertions(RequestInterface $request): void

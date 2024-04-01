@@ -14,7 +14,7 @@
     </testsuites>
     <php>
         <env name="SANDBOX" value="0"/>
-        <env name="DATAFORSEO_LOGIN" value=""/>
-        <env name="DATAFORSEO_PASSWORD" value=""/>
+        <env name="DATAFORSEO_LOGIN" value="login"/>
+        <env name="DATAFORSEO_PASSWORD" value="password"/>
     </php>
 </phpunit>

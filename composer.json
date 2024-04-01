@@ -18,16 +18,17 @@
         "psr/http-client-implementation": "^1",
         "psr/http-factory": "^1.0",
         "psr/http-factory-implementation": "^1",
-        "symfony/string": "^6.3"
+        "symfony/string": "^6.0 || ^7.0",
+        "webmozart/assert": "^1.11"
     },
     "require-dev": {
         "infection/infection": "^0.26",
         "nyholm/psr7": "^1.8",
-        "phpspec/prophecy-phpunit": "^2.0",
+        "phpspec/prophecy-phpunit": "^2.2",
         "phpunit/phpunit": "^9.6",
         "psalm/plugin-phpunit": "^0.18",
-        "setono/code-quality-pack": "^2.6",
-        "symfony/http-client": "^6.3"
+        "setono/code-quality-pack": "^2.7",
+        "symfony/http-client": "^6.0 || ^7.0"
     },
     "prefer-stable": true,
     "autoload": {
